@@ -73,3 +73,34 @@
     opacity: 1;
     bottom: 25px;
 }
+
+@media (max-width: 600px) {
+    .container {
+        height: auto;
+        min-height: 100vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 30px;
+        padding: 40px 20px;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .img-box {
+        width: 70px;
+        height: 400px;
+        margin: 5px;
+    }
+
+    .img-box:hover {
+        width: 210px;
+    }
+}
